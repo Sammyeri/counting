@@ -43,7 +43,7 @@ for(let num of constnumbers){
 
 let word = prompt("Please give me a word");
 
-for(i=word.length; i<11; i++){
+for(i=word.length; i<10; i++){
     word = " " + word;
 }
 console.log(word);
