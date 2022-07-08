@@ -41,3 +41,9 @@ for(let num of constnumbers){
     console.log(num);
 }
 
+let word = prompt("Please give me a word");
+
+for(i=word.length; i<11; i++){
+    word = " " + word;
+}
+console.log(word);
